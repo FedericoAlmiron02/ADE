@@ -11,8 +11,8 @@
   DTS:LocaleID="11274"
   DTS:ObjectName="CargaDimensiones"
   DTS:PackageType="5"
-  DTS:VersionBuild="246"
-  DTS:VersionGUID="{E3F1E2D4-7069-41CF-AC55-4ED9827B425C}">
+  DTS:VersionBuild="251"
+  DTS:VersionGUID="{1D4291E8-BB2D-4B9C-BF12-67A41B69D103}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -223,7 +223,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="addr_state"
-              DTS:DTSID="{6A3735FA-93F4-45EC-9D11-469F86BD8275}"
+              DTS:DTSID="{3BC29202-4A83-4941-9271-5F2D68530AB6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -232,7 +232,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="annual_inc"
-              DTS:DTSID="{90EB48FF-50C0-4F34-9B2A-A3524A18BD7C}"
+              DTS:DTSID="{AFE5A545-5F0E-44CF-82BA-B5577F05A123}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -241,7 +241,7 @@
               DTS:DataPrecision="18"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_amnt"
-              DTS:DTSID="{73FA26FE-24FA-4556-86AD-556B89B4C6B5}"
+              DTS:DTSID="{8B8FCDAA-BA9D-4A30-985A-A1D89CDCEF14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -250,7 +250,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="int_rate"
-              DTS:DTSID="{E3E3E5E2-05D9-4C9D-BE6D-096BD957E360}"
+              DTS:DTSID="{F75149B3-28FE-4047-A5AA-73E241D2CAC3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -259,7 +259,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="purpose"
-              DTS:DTSID="{B7055100-0BA5-4F52-9CDB-07F9082A04CC}"
+              DTS:DTSID="{884DA0DA-4A2D-48A2-8FE3-A4625415E139}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -268,7 +268,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_type"
-              DTS:DTSID="{ED73BCA5-46B6-41A9-A9F1-4E8C84373E55}"
+              DTS:DTSID="{E0388F10-B33D-408F-9CF2-8C96BB9FFFE2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -277,7 +277,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="term"
-              DTS:DTSID="{D15CF2AB-2032-43C9-8D1A-36D70D250BEE}"
+              DTS:DTSID="{486E4AD3-4DDA-4752-B19D-4555B267FA0B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -286,7 +286,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="loan_status"
-              DTS:DTSID="{F6787690-A36F-48F8-967D-358C4637C257}"
+              DTS:DTSID="{DC9B9532-8E89-4487-A9A9-1B488030AFAB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -294,7 +294,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="earliest_cr_line"
-              DTS:DTSID="{F5066F93-0106-4964-B09D-88ECD57901BA}"
+              DTS:DTSID="{E0B835D2-8D9C-4A97-80F0-2162807BB4AB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -302,7 +302,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="issue_d"
-              DTS:DTSID="{F0DFE81D-E00D-4147-BBA8-410876525E74}"
+              DTS:DTSID="{38ED71D6-AB86-41CC-AEAE-A200A5076809}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -311,7 +311,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id_prestatario"
-              DTS:DTSID="{16BEF27E-99BF-4D1B-A6E5-BB7CEF45DC9F}"
+              DTS:DTSID="{51C2A51C-9B15-470C-B583-30C3C6D7B555}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -320,16 +320,16 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_desc"
-              DTS:DTSID="{076EFFD2-D4D6-41ED-9002-8A54E0579290}"
+              DTS:DTSID="{D8E5A659-13ED-4FDA-B128-F0BAE565EC61}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="5"
+              DTS:MaximumWidth="50"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="descuento"
-              DTS:DTSID="{6ED75F85-3FB4-49DA-8CC9-26CC04B1B8FD}"
+              DTS:DTSID="{7D9B3386-B25A-4AA0-B84E-EAA9C450CF61}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +338,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="tipo_tasa"
-              DTS:DTSID="{963EE53A-A37B-4B50-A1B3-BC11F2507309}"
+              DTS:DTSID="{8527691F-CFF7-4097-B126-57C25B39A713}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -347,7 +347,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="city"
-              DTS:DTSID="{E1DBD0FE-E5E5-43A5-A89F-FD74D2B4F36C}"
+              DTS:DTSID="{D14F76C9-E471-48B8-A789-9C434D3C12D6}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -595,7 +595,7 @@
                     <inputColumn
                       refId="Package\CargaDescuentos\Data Conversion.Inputs[Data Conversion Input].Columns[descuento]"
                       cachedDataType="wstr"
-                      cachedLength="5"
+                      cachedLength="50"
                       cachedName="descuento"
                       cachedSortKeyPosition="2"
                       lineageId="Package\CargaDescuentos\Sort.Outputs[Sort Output].Columns[descuento]" />
@@ -674,7 +674,7 @@
                     <inputColumn
                       refId="Package\CargaDescuentos\Derived Column.Inputs[Derived Column Input].Columns[descuento]"
                       cachedDataType="wstr"
-                      cachedLength="5"
+                      cachedLength="50"
                       cachedName="descuento"
                       cachedSortKeyPosition="2"
                       errorOrTruncationOperation="Computation"
@@ -687,13 +687,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_DECIMAL,2)([REPLACE](#{Package\CargaDescuentos\Sort.Outputs[Sort Output].Columns[descuento]},"%",""))</property>
+                          name="Expression">(DT_DECIMAL,2)([REPLACE](#{Package\CargaDescuentos\Sort.Outputs[Sort Output].Columns[descuento]},"%","")) / 100</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_DECIMAL,2)(REPLACE(descuento,"%",""))</property>
+                          name="FriendlyExpression">(DT_DECIMAL,2)(REPLACE(descuento,"%","")) / 100</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -792,7 +792,7 @@
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\CargaDescuentos\Prestamos.Outputs[Flat File Source Output].ExternalColumns[descuento]"
-                      length="5"
+                      length="50"
                       lineageId="Package\CargaDescuentos\Prestamos.Outputs[Flat File Source Output].Columns[descuento]"
                       name="descuento"
                       truncationRowDisposition="FailComponent">
@@ -892,7 +892,7 @@
                     <externalMetadataColumn
                       refId="Package\CargaDescuentos\Prestamos.Outputs[Flat File Source Output].ExternalColumns[descuento]"
                       dataType="wstr"
-                      length="5"
+                      length="50"
                       name="descuento" />
                     <externalMetadataColumn
                       refId="Package\CargaDescuentos\Prestamos.Outputs[Flat File Source Output].ExternalColumns[tipo_tasa]"
@@ -978,7 +978,7 @@
                     <inputColumn
                       refId="Package\CargaDescuentos\Sort.Inputs[Sort Input].Columns[descuento]"
                       cachedDataType="wstr"
-                      cachedLength="5"
+                      cachedLength="50"
                       cachedName="descuento"
                       lineageId="Package\CargaDescuentos\Prestamos.Outputs[Flat File Source Output].Columns[descuento]">
                       <properties>
@@ -1020,7 +1020,7 @@
                     <outputColumn
                       refId="Package\CargaDescuentos\Sort.Outputs[Sort Output].Columns[descuento]"
                       dataType="wstr"
-                      length="5"
+                      length="50"
                       lineageId="Package\CargaDescuentos\Sort.Outputs[Sort Output].Columns[descuento]"
                       name="descuento"
                       sortKeyPosition="2">
@@ -6398,7 +6398,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{9D3CB964-5504-4B97-BC9B-FAF97CD563CE}"
-          SQLTask:SqlStatementSource="-- 1. Declaración y asignación de variables de control DECLARE @StartDate      DATE, @EndDate        DATE, @CurrentDate    DATE; SET @StartDate   = '2012-01-01'; SET @EndDate     = '2027-12-31'; SET @CurrentDate = @StartDate; -- 2. Bucle día a día WHILE @CurrentDate &lt;= @EndDate BEGIN -- 2.1. Determinar si es año bisiesto DECLARE @FlagAnioBisiesto BIT; IF ( YEAR(@CurrentDate) % 4 = 0 AND (YEAR(@CurrentDate) % 100 != 0 OR YEAR(@CurrentDate) % 400 = 0) ) SET @FlagAnioBisiesto = 1; ELSE SET @FlagAnioBisiesto = 0; -- 2.2. Determinar si cae en fin de semana (sábado o domingo) DECLARE @FlagFinDeSemana BIT; IF DATEPART(dw, @CurrentDate) IN (1, 7) SET @FlagFinDeSemana = 1; ELSE SET @FlagFinDeSemana = 0; -- 2.3. Calcular trimestre y semestre DECLARE @Trimestre INT = DATEPART(qq, @CurrentDate); DECLARE @Semestre INT = CASE WHEN MONTH(@CurrentDate) &lt;= 6 THEN 1 ELSE 2 END; -- 3. Inserción en DimTiempo INSERT INTO [DimTiempo] ( [Fecha], [Dia], [NombreDia], [Semana], [Mes], [NombreMes], [Anio], [Trimestre], [Semestre], [FlagFinDeSemana], [FlagAnioBisiesto] ) VALUES ( @CurrentDate, DAY(@CurrentDate), DATENAME(dw,   @CurrentDate), DATEPART(wk,   @CurrentDate), MONTH(@CurrentDate), DATENAME(mm,   @CurrentDate), YEAR(@CurrentDate), @Trimestre, @Semestre, @FlagFinDeSemana, @FlagAnioBisiesto ); -- Avanzar al siguiente día SET @CurrentDate = DATEADD(day, 1, @CurrentDate); END GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="-- =============================================&#xA;-- Poblado de DimTiempo: fechas desde 2012-01-01 hasta 2027-12-31&#xA;-- =============================================&#xA;&#xA;-- 1. Declaración y asignación de variables de control&#xA;DECLARE&#xA;    @StartDate      DATE,&#xA;    @EndDate        DATE,&#xA;    @CurrentDate    DATE;&#xA;&#xA;SET @StartDate   = '2012-01-01';&#xA;SET @EndDate     = '2027-12-31';&#xA;SET @CurrentDate = @StartDate;&#xA;&#xA;-- 2. Bucle día a día&#xA;WHILE @CurrentDate &lt;= @EndDate&#xA;BEGIN&#xA;    -- 2.1. Determinar si es año bisiesto&#xA;    DECLARE @FlagAnioBisiesto BIT;&#xA;    IF (&#xA;        YEAR(@CurrentDate) % 4 = 0&#xA;        AND (YEAR(@CurrentDate) % 100 != 0 OR YEAR(@CurrentDate) % 400 = 0)&#xA;    )&#xA;        SET @FlagAnioBisiesto = 1;&#xA;    ELSE&#xA;        SET @FlagAnioBisiesto = 0;&#xA;&#xA;    -- 2.2. Determinar si cae en fin de semana (sábado o domingo)&#xA;    DECLARE @FlagFinDeSemana BIT;&#xA;    IF DATEPART(dw, @CurrentDate) IN (1, 7)&#xA;        SET @FlagFinDeSemana = 1;&#xA;    ELSE&#xA;        SET @FlagFinDeSemana = 0;&#xA;&#xA;    -- 2.3. Calcular trimestre y semestre&#xA;    DECLARE @Trimestre INT&#xA;        = DATEPART(qq, @CurrentDate);&#xA;    DECLARE @Semestre INT&#xA;        = CASE WHEN MONTH(@CurrentDate) &lt;= 6 THEN 1 ELSE 2 END;&#xA;&#xA;    -- 3. Inserción en DimTiempo&#xA;    INSERT INTO [DimTiempo]&#xA;    (&#xA;        [Fecha],&#xA;        [Dia],&#xA;        [NombreDia],&#xA;        [Semana],&#xA;        [Mes],&#xA;        [NombreMes],&#xA;        [Anio],&#xA;        [Trimestre],&#xA;        [Semestre],&#xA;        [FlagFinDeSemana],&#xA;        [FlagAnioBisiesto]&#xA;    )&#xA;    VALUES&#xA;    (&#xA;        @CurrentDate,&#xA;        DAY(@CurrentDate),&#xA;        DATENAME(dw,   @CurrentDate),&#xA;        DATEPART(wk,   @CurrentDate),&#xA;        MONTH(@CurrentDate),&#xA;        DATENAME(mm,   @CurrentDate),&#xA;        YEAR(@CurrentDate),&#xA;        @Trimestre,&#xA;        @Semestre,&#xA;        @FlagFinDeSemana,&#xA;        @FlagAnioBisiesto&#xA;    );&#xA;&#xA;    -- Avanzar al siguiente día&#xA;    SET @CurrentDate = DATEADD(day, 1, @CurrentDate);&#xA;END&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -7301,6 +7301,18 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="232,42"
+          Id="Package\BorradoContenidoDimensiones"
+          TopLeft="320.5,167.5" />
+        <NodeLayout
+          Size="200,42"
+          Id="Package\BorradoContenidoHecho"
+          TopLeft="334.5,66.5" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\BorradoContenidoStaging"
+          TopLeft="60.5,60.5" />
+        <NodeLayout
           Size="167,42"
           Id="Package\CargaDescuentos"
           TopLeft="469,301" />
@@ -7308,6 +7320,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Size="162,42"
           Id="Package\CargaPrestatario"
           TopLeft="258.5,397.5" />
+        <NodeLayout
+          Size="146,42"
+          Id="Package\CargaStaging"
+          TopLeft="79.5,145.5" />
         <NodeLayout
           Size="152,42"
           Id="Package\CargaSucursal"
@@ -7317,6 +7333,10 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\CargaTasa"
           TopLeft="674.5,301.5" />
         <NodeLayout
+          Size="140,42"
+          Id="Package\CargaTasa2"
+          TopLeft="654.5,162.5" />
+        <NodeLayout
           Size="146,42"
           Id="Package\CargaTiempo"
           TopLeft="101.5,299.5" />
@@ -7324,10 +7344,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Size="157,42"
           Id="Package\CargaUbicacion"
           TopLeft="265,301" />
-        <NodeLayout
-          Size="232,42"
-          Id="Package\BorradoContenidoDimensiones"
-          TopLeft="320.5,167.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="414.1,209.5">
@@ -7520,18 +7536,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="146,42"
-          Id="Package\CargaStaging"
-          TopLeft="79.5,145.5" />
-        <NodeLayout
-          Size="206,42"
-          Id="Package\BorradoContenidoStaging"
-          TopLeft="60.5,60.5" />
-        <NodeLayout
-          Size="200,42"
-          Id="Package\BorradoContenidoHecho"
-          TopLeft="334.5,66.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
           TopLeft="163.5,102.5">
@@ -7610,10 +7614,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="140,42"
-          Id="Package\CargaTasa2"
-          TopLeft="654.5,162.5" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -7621,11 +7621,11 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
     design-time-name="Package\CargaDescuentos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="132,42"
           Id="Package\CargaDescuentos\Prestamos"
-          TopLeft="276.5,42.5" />
+          TopLeft="277.5,42.5" />
         <NodeLayout
           Size="99,42"
           Id="Package\CargaDescuentos\Sort"
@@ -7661,12 +7661,14 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-15.4194140625,20.96337890625,30.838828125,9.5732421875"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\CargaDescuentos.Paths[Flat File Source Output]"
-          TopLeft="345.75,84.5">
+          TopLeft="346.25,84.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7683,7 +7685,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-34.8001171875,19.46337890625,69.600234375,9.5732421875"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7705,7 +7709,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-15.4194140625,27.46337890625,30.838828125,9.5732421875"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7727,7 +7733,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-15.4194140625,27.96337890625,30.838828125,9.5732421875"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7821,7 +7829,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7843,7 +7853,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7865,7 +7877,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7899,7 +7913,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7933,7 +7949,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7967,7 +7985,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7987,7 +8007,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -7997,8 +8017,140 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\CargaStaging">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="158,42"
+          Id="Package\CargaStaging\Derived Column"
+          TopLeft="308.5,151.5" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\CargaStaging\Derived Column 1"
+          TopLeft="300.5,301.5" />
+        <NodeLayout
+          Size="194,42"
+          Id="Package\CargaStaging\SQL Server Destination"
+          TopLeft="286.5,394.5" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\CargaStaging\Prestamos"
+          TopLeft="314.5,63.5" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\CargaStaging\Data Conversion"
+          TopLeft="303.5,219.5" />
+        <EdgeLayout
+          Id="Package\CargaStaging.Paths[Flat File Source Output]"
+          TopLeft="384,105.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46"
+              Start="0,0"
+              End="0,38.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaStaging.Paths[Derived Column Output1]"
+          TopLeft="383.75,343.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaStaging.Paths[Derived Column Output]"
+          TopLeft="385.75,193.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaStaging.Paths[Data Conversion Output]"
+          TopLeft="384,261.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40"
+              Start="0,0"
+              End="0,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\CargaStaging\SQL Server Destination">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -8014,87 +8166,21 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           Id="Package\CargaSucursal\Lookup"
           TopLeft="330.5,303.5" />
         <NodeLayout
-          Size="132,42"
-          Id="Package\CargaSucursal\Prestamos"
-          TopLeft="327.5,46.5" />
-        <NodeLayout
           Size="99,42"
           Id="Package\CargaSucursal\Sort"
           TopLeft="339.5,124.5" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\CargaSucursal\Derived Column"
-          TopLeft="312.5,208.5" />
-        <EdgeLayout
-          Id="Package\CargaSucursal.Paths[Flat File Source Output]"
-          TopLeft="391.25,88.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36"
-              Start="0,0"
-              End="0,28.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\CargaSucursal.Paths[Derived Column Output]"
-          TopLeft="389.75,250.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\CargaSucursal.Paths[Sort Output]"
-          TopLeft="390.25,166.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42"
-              Start="0,0"
-              End="0,34.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="132,42"
+          Id="Package\CargaSucursal\Prestamos"
+          TopLeft="327.5,46.5" />
         <NodeLayout
           Size="194,42"
           Id="Package\CargaSucursal\SQL Server Destination"
           TopLeft="289.5,384.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\CargaSucursal\Derived Column"
+          TopLeft="312.5,208.5" />
         <EdgeLayout
           Id="Package\CargaSucursal.Paths[Lookup Match Output]"
           TopLeft="387.25,345.5">
@@ -8119,16 +8205,96 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaSucursal.Paths[Flat File Source Output]"
+          TopLeft="391.25,88.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36"
+              Start="0,0"
+              End="0,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaSucursal.Paths[Derived Column Output]"
+          TopLeft="389.75,250.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaSucursal.Paths[Sort Output]"
+          TopLeft="390.25,166.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42"
+              Start="0,0"
+              End="0,34.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\CargaSucursal\SQL Server Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\CargaSucursal\Lookup">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -8138,7 +8304,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8151,17 +8317,21 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="194,42"
+          Id="Package\CargaTasa\SQL Server Destination"
+          TopLeft="243.5,346.5" />
+        <NodeLayout
           Size="132,42"
           Id="Package\CargaTasa\Prestamos"
           TopLeft="273.5,62.5" />
         <NodeLayout
+          Size="158,42"
+          Id="Package\CargaTasa\Derived Column"
+          TopLeft="261.5,150.5" />
+        <NodeLayout
           Size="161,42"
           Id="Package\CargaTasa\Data Conversion"
           TopLeft="257.5,239.5" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\CargaTasa\SQL Server Destination"
-          TopLeft="243.5,346.5" />
         <EdgeLayout
           Id="Package\CargaTasa.Paths[Data Conversion Output]"
           TopLeft="339.25,281.5">
@@ -8186,10 +8356,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="158,42"
-          Id="Package\CargaTasa\Derived Column"
-          TopLeft="261.5,150.5" />
         <EdgeLayout
           Id="Package\CargaTasa.Paths[Flat File Source Output]"
           TopLeft="340,104.5">
@@ -8239,20 +8405,132 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
-          Text="Al poner dt_numeric en el derived column no anda(a enzo si)&#xD;&#xA;Se cambia los . por las , para que lo arregle el data conversion&#xD;&#xA;&#xD;&#xA;"
+          Text="Al poner dt_numeric en el derived column no anda(a enzo si)&#xA;Se cambia los . por las , para que lo arregle el data conversion&#xA;&#xA;"
           ParentId="Package\CargaTasa"
           FontInfo="{assembly:Null}"
-          Size="355,88"
+          Size="355,NaN"
           Id="aa87b6ab-db56-425a-b254-12f0e8af6be4"
           TopLeft="473,159" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\CargaTasa\SQL Server Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\CargaTasa2">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="194,42"
+          Id="Package\CargaTasa2\SQL Server Destination"
+          TopLeft="314.5,348.5" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\CargaTasa2\Prestamos"
+          TopLeft="334.5,40.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\CargaTasa2\Derived Column"
+          TopLeft="324.5,135.5" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\CargaTasa2\Data Conversion"
+          TopLeft="327.5,241.5" />
+        <EdgeLayout
+          Id="Package\CargaTasa2.Paths[Data Conversion Output]"
+          TopLeft="409.75,283.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,65"
+              Start="0,0"
+              End="0,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaTasa2.Paths[Flat File Source Output]"
+          TopLeft="402,82.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\CargaTasa2.Paths[Derived Column Output]"
+          TopLeft="405.75,177.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,64"
+              Start="0,0"
+              End="0,56.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,56.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\CargaTasa2\SQL Server Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\CargaUbicacion">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="133,42"
           Id="Package\CargaUbicacion\Merge Join"
@@ -8308,7 +8586,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8342,7 +8622,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8364,7 +8646,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8386,7 +8670,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -8408,7 +8694,9 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8416,244 +8704,6 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\CargaUbicacion\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\CargaTasa\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\CargaSucursal\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\CargaStaging">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="132,42"
-          Id="Package\CargaStaging\Prestamos"
-          TopLeft="314.5,63.5" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\CargaStaging\Derived Column"
-          TopLeft="308.5,151.5" />
-        <EdgeLayout
-          Id="Package\CargaStaging.Paths[Flat File Source Output]"
-          TopLeft="384,105.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46"
-              Start="0,0"
-              End="0,38.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="161,42"
-          Id="Package\CargaStaging\Data Conversion"
-          TopLeft="303.5,219.5" />
-        <EdgeLayout
-          Id="Package\CargaStaging.Paths[Derived Column Output]"
-          TopLeft="385.75,193.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26"
-              Start="0,0"
-              End="0,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="167,42"
-          Id="Package\CargaStaging\Derived Column 1"
-          TopLeft="300.5,301.5" />
-        <EdgeLayout
-          Id="Package\CargaStaging.Paths[Data Conversion Output]"
-          TopLeft="384,261.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40"
-              Start="0,0"
-              End="0,32.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="194,42"
-          Id="Package\CargaStaging\SQL Server Destination"
-          TopLeft="286.5,394.5" />
-        <EdgeLayout
-          Id="Package\CargaStaging.Paths[Derived Column Output1]"
-          TopLeft="383.75,343.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51"
-              Start="0,0"
-              End="0,43.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\CargaStaging\SQL Server Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\CargaTasa2">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="132,42"
-          Id="Package\CargaTasa2\Prestamos"
-          TopLeft="334.5,40.5" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\CargaTasa2\Derived Column"
-          TopLeft="324.5,135.5" />
-        <NodeLayout
-          Size="161,42"
-          Id="Package\CargaTasa2\Data Conversion"
-          TopLeft="327.5,241.5" />
-        <NodeLayout
-          Size="194,42"
-          Id="Package\CargaTasa2\SQL Server Destination"
-          TopLeft="314.5,348.5" />
-        <EdgeLayout
-          Id="Package\CargaTasa2.Paths[Flat File Source Output]"
-          TopLeft="402,82.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\CargaTasa2.Paths[Derived Column Output]"
-          TopLeft="405.75,177.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,64"
-              Start="0,0"
-              End="0,56.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,56.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\CargaTasa2.Paths[Data Conversion Output]"
-          TopLeft="409.75,283.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,65"
-              Start="0,0"
-              End="0,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\CargaTasa2\SQL Server Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
