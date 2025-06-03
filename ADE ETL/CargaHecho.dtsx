@@ -11,8 +11,8 @@
   DTS:LocaleID="11274"
   DTS:ObjectName="CargaHecho"
   DTS:PackageType="5"
-  DTS:VersionBuild="33"
-  DTS:VersionGUID="{4DAB8C51-23FB-44FF-AE65-6DAABEECC720}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{7B342DC6-6984-49F6-8452-0D465032E419}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -173,6 +173,166 @@
               DTS:TextQualified="True"
               DTS:ObjectName="regimen"
               DTS:DTSID="{C4336AB8-3D64-4A9D-A6F6-E2CD846AECBF}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Clientes1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7BA03BF6-DE0E-4ED3-B964-C7436FF9C7B1}"
+      DTS:ObjectName="Clientes1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Administrator\Downloads\clientes_muestra_25000.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{EEC2F227-554C-4284-9F39-F96229BC3D8E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="nombre"
+              DTS:DTSID="{DF5E6BDC-36B9-4378-BA40-32D75E149CD1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="apellido"
+              DTS:DTSID="{F36E651B-7686-4A20-9E3D-2300A0950DE6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="dni"
+              DTS:DTSID="{1658029D-195F-48D4-8EE2-4603518151CB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="email"
+              DTS:DTSID="{700ED5C0-AB18-4204-8746-7B43B37E51F1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fecha_nacimiento"
+              DTS:DTSID="{20A346C8-1BD9-4477-9F68-0F22305A2856}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="genero"
+              DTS:DTSID="{15048EBC-A90C-45CA-9A1D-DC575F50871B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="telefono"
+              DTS:DTSID="{3DE37351-8CEE-432C-801E-157C79F9B4FA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="direccion"
+              DTS:DTSID="{46075ADF-3E00-4460-82D0-E25BCD482073}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="estado"
+              DTS:DTSID="{1B3AE086-1EC6-4A25-9701-272CC0BEF2BC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ciudad"
+              DTS:DTSID="{E798EDF5-8158-4D40-B404-97C10980B964}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="codigo_postal"
+              DTS:DTSID="{DFED4C78-EC70-4E21-BBDF-24F3D16C93DA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fecha_registro"
+              DTS:DTSID="{2C32192F-2245-490C-9F9B-1FA25EC439AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="perfil"
+              DTS:DTSID="{4AE7D224-D16A-44A9-88BC-C1D65BA2EDF5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ingreso_anual"
+              DTS:DTSID="{A7E0FF9F-D159-4787-B379-7FECBF9C9102}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="regimen"
+              DTS:DTSID="{C0B79646-ADE3-46B0-AE38-08AC6F320A88}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -432,8 +592,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Clientes.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Clientes]"
-                  connectionManagerRefId="Package.ConnectionManagers[Clientes]"
+                  connectionManagerID="Package.ConnectionManagers[Clientes1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Clientes1]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -799,12 +959,13 @@
                       name="dni" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[email]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="email" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[fecha_nacimiento]"
-                      dataType="dbDate"
+                      dataType="date"
                       name="fecha_nacimiento" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[genero]"
@@ -813,18 +974,20 @@
                       name="genero" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[telefono]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="telefono" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[direccion]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="direccion" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[estado]"
                       dataType="wstr"
-                      length="50"
+                      length="100"
                       name="estado" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[ciudad]"
@@ -833,24 +996,24 @@
                       name="ciudad" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[codigo_postal]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="codigo_postal" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[fecha_registro]"
-                      dataType="wstr"
-                      length="50"
+                      dataType="date"
                       name="fecha_registro" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[perfil]"
-                      dataType="wstr"
+                      codePage="65001"
+                      dataType="str"
                       length="50"
                       name="perfil" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[ingreso_anual]"
-                      dataType="numeric"
-                      name="ingreso_anual"
-                      precision="18" />
+                      dataType="decimal"
+                      name="ingreso_anual" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Clientes.Outputs[Flat File Source Output].ExternalColumns[regimen]"
                       dataType="wstr"
@@ -3214,7 +3377,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3337,7 +3500,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -3347,7 +3510,7 @@ where [refTable].[Provincia] = ? and [refTable].[Ciudad] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
